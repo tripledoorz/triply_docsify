@@ -1,4 +1,4 @@
-
+#ngInfiniteScroll
 - [x]  ++css【weui：https://weui.io/】++
 
 - [x]  ++lazy-img++
@@ -110,7 +110,7 @@ $scope.getAjax = function () {
 			});
 		};
 ```
-
+#小程序play公共组件
 ```
 play_type：0回看；1直播；2点播
 
