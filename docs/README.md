@@ -1,21 +1,21 @@
-##  ngInfiniteScroll
-- [x]  ++css【weui：https://weui.io/】++
+## ngInfiniteScroll
 
-- [x]  ++lazy-img++
+- [x] ++css【weui：https://weui.io/】++
 
-参数名 | 描述 |取值(示例)	默认值
-------|---|------
-animate-visible | 是否以渐入的方式显示图片（包括初始化加载的图片） | “true”	“false”
-animate-speed | 渐入显示的速度（图片透明度从0到1） | “0.5s”	“1s”
+- [x] ++lazy-img++
 
-
+| 参数名          | 描述                                             | 取值(示例) 默认值 |
+| --------------- | ------------------------------------------------ | ----------------- |
+| animate-visible | 是否以渐入的方式显示图片（包括初始化加载的图片） | “true” “false”    |
+| animate-speed   | 渐入显示的速度（图片透明度从 0 到 1）            | “0.5s” “1s”       |
 
 ```
 <img lazy-src="{{imgUrl}}" animate-visible="true" animate-speed="0.5s" alt="" />
 
 局部滚动或路由切换无加载，滚动scroll添加class：lazyLoadContainer
-            
+
 ```
+
 - 示例
 
 ```
@@ -29,15 +29,15 @@ animate-speed | 渐入显示的速度（图片透明度从0到1） | “0.5s”	
             </div>
         </div>
     </div>
-    
+
     err-src="img/ico_df.png" 错误图片、404、null 替换默认
 ```
-- [x] ++底部无限加载infiniteScroll (directive in module infinite-scroll)++
+
+- [x] ++底部无限加载 infiniteScroll (directive in module infinite-scroll)++
 
 http://sroze.github.io/ngInfiniteScroll/documentation.html
 
-
-- 示例,参考choose.js
+- 示例,参考 choose.js
 
 ```
 <ANY infinite-scroll='{expression}'
@@ -49,7 +49,6 @@ http://sroze.github.io/ngInfiniteScroll/documentation.html
      [infinite-scroll-use-document-bottom='{boolean}']
      [infinite-scroll-parent]>
 </ANY>
-
 ```
 
 ```
@@ -71,7 +70,7 @@ http://sroze.github.io/ngInfiniteScroll/documentation.html
 		</div>
 		<p class="alic ptb" id="J_loading" ng-bind="loadtext"></p>
 	</div>
-	
+
 $scope.getAjax = function () {
             $scope.isc = true;
 			var senturl = webset.apiurl + 'search/siftings.json',
@@ -110,7 +109,9 @@ $scope.getAjax = function () {
 			});
 		};
 ```
-##  小程序-play公共组件
+
+## 小程序-play 公共组件
+
 ```
 play_type：0回看；1直播；2点播
 
