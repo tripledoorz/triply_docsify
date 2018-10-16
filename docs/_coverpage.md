@@ -8,5 +8,5 @@
 * 体积小
 * 无依赖
 
-[GitHub](https://zkgit.github.io/triply_docsify)
+[GitHub](https://github.com/zkgit)
 [Get Started](#quick-start)
